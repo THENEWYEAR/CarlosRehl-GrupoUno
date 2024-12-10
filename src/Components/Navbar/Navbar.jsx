@@ -5,7 +5,7 @@ export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-black">
+        <nav className="bg-blue-950">
             <div className="md:hidden flex items-center justify-end p-4">
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
