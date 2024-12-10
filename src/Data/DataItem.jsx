@@ -1,9 +1,9 @@
 export const products = [
     {
         id: 1,
-        name: 'Monitor',
-        price: 350000,
-        despcription: 'Monitor Gamer Acer Nitro 27 180Hz WQHD 1440p LCD FreeSync',
+        name: 'RAM DDR4 8GB',
+        price: 25000,
+        despcription: 'Memoria RAM DDR4 8GB 3200MT/s Kingston Fury Beast RGB, CL16, DIMM, 1.35V',
         stock: 15,
         img:'https://media.spdigital.cl/thumbnails/products/icpdcgvy_b02983d1_thumbnail_512.jpg',
         categoria: 'Ram'
@@ -11,77 +11,68 @@ export const products = [
     },
     {
         id: 2,
-        name: 'Escritorio',
-        price: 105000,
-        despcription: 'Escritorio gamer inspire negro',
+        name: 'RAM Kingston Fury Beast',
+        price: 35000,
+        despcription: 'Memoria RAM Kingston Fury Beast RGB de 16GB (DDR4, 3733MHz, CL19, DIMM)',
         stock: 20,
-        img: 'https://rimage.ripley.cl/home.ripley/Attachment/MKP/629/MPM00007523418/full_image-1.jpg',
+        img: 'https://www.winpy.cl/files/w24684_kingston_fury_beast_rgb_2.jpg',
         categoria: 'Ram'
 
     },
     {
         id: 3,
-        name: 'Silla Gamer',
-        price: 64000,
-        despcription: 'Silla Gamer Profesional GX2000 con Reposapiés-Negro Vidita',
+        name: 'RAM 32GB DDR4',
+        price: 40000,
+        despcription: 'Memoria RAM 32GB DDR4 3200MT/S CL16 Kingston Fury Beast Black',
         stock: 7,
-        img: 'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCL/114328608_01/w=1500,h=1500,fit=pad',
+        img: 'https://centrale.cl/wp-content/uploads/Kingston-32Gb-3200Mt-S-DDR4-Cl16-Dimm-Fury-Beast-Negro-KF432C16BB-32.webp',
         categoria: 'Ram'
 
     },
     {
         id: 4,
-        name: 'Teclado',
+        name: 'RAM 64GB DDR4',
         price: 45000,
-        despcription: 'Teclado Mecánico TKL Gamer Switch KB869 Negro',
+        despcription: 'Memoria RAM 64GB DDR4 3200MHz DIMM CL22 ECC REG 1.2V 288p - Kingston Server Prem',
         stock: 20,
-        img: 'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCL/113147458_01/w=800,h=800,fit=pad',
-        categoria: 'Discos'
+        img: 'https://res.cloudinary.com/djx6viedj/image/upload/t_trimmed_square_512/jn0c9gl8viektt8uheqfro16qfzs?_a=BACCd2Ev',
+        categoria: 'Ram'
 
     },
     {
         id: 5,
-        name: 'Monitor',
-        price: 220000,
-        despcription: 'Monitor gamer msi optix g24c 144hz 1ms freesync d-port hdmi 1920x1080',
+        name: 'Western Digital 500GB Blue',
+        price: 42000,
+        despcription: 'Disco Duro Western Digital 500GB Blue 7200RPM 32MB 3.5IN',
         stock: 24,
-        img: 'https://tecnosaga.cl/images/productos/9mpqwqht0b71temg49kfmyvn66mg0g.jpg',
+        img: 'https://cdn3.spider.cl/5495-large_default/disco-duro-western-digital-500gb-blue-7200rpm-32mb-35in.jpg',
         categoria: 'Discos'
     },
     {
         id: 6,
-        name: 'Escritorio',
-        price: 240000,
-        despcription: 'Escritorio Gamer Vekkahome Link Negro Verde',
+        name: 'Disco Duro 1Tb',
+        price: 75000,
+        despcription: 'Disco Duro 1Tb Western Digital Purple Dahua',
         stock: 9,
-        img: 'https://www.lapolar.cl/dw/image/v2/BCPP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw949fccc7/images/large/1CC22347772.jpg?sw=1200&sh=1200&sm=fit',
+        img: 'https://www.pcplay.cl/img/productos/2655/5f204382f9344b73a122f8aa.jpg?date=',
         categoria: 'Discos'
     },
     {
         id: 7,
-        name: 'Mouse',
+        name: 'EVGA 500W',
         price: 120000,
-        despcription: 'Mouse Gamer Razer Cobra Pro Rgb Color Negro',
+        despcription: 'Fuente de Poder EVGA 500W W1 Certificada 80+ White Plus',
         stock: 6,
-        img: 'https://http2.mlstatic.com/D_NQ_NP_796748-MLU79276154391_092024-O.webp',
+        img: 'https://cdn1.spider.cl/11276-large_default/fuente-de-poder-evga-500w-w1-certificada-80-white-plus.jpg',
         categoria: 'Fuentes'
     },
     {
         id: 8,
-        name: 'Teclado',
-        price: 30000,
-        despcription: 'Teclado gamer Redragon Kumara K552 QWERTY Outemu Red español España color negro con luz rainbow',
+        name: 'Noga ATX-800',
+        price: 300000,
+        despcription: 'Fuente de poder para PC Noga ATX-800 800W negra 220V',
         stock: 9,
-        img: 'https://http2.mlstatic.com/D_NQ_NP_636746-MLA52350707355_112022-O.webp',
-        categoria: 'Fuentes'
-    },
-    {
-        id: 9,
-        name: 'Silla Gamer',
-        price: 78000,
-        despcription: 'Silla Gamer Reclinable Con Reposapiés Moderna Ergonómica',
-        stock: 11,
-        img: 'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCL/124014798_01/w=1500,h=1500,fit=pad',
+        img: 'https://http2.mlstatic.com/D_NQ_NP_937606-MLA74806234425_022024-O.webp',
         categoria: 'Fuentes'
     },
 ];

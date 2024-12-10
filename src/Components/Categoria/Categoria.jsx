@@ -34,19 +34,19 @@ const ProductsCategory = () => {
             <div className="flex justify-center space-x-4 my-4">
                 <button
                     onClick={() => handleCategoryChange('Ram')}
-                    className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
-                >
-                    Discos
-                </button>
-                <button
-                    onClick={() => handleCategoryChange('Discos')}
-                    className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
+                    className="px-4 py-2 bg-black text-white rounded hover:bg-blue-700"
                 >
                     Ram
                 </button>
                 <button
+                    onClick={() => handleCategoryChange('Discos')}
+                    className="px-4 py-2 bg-black text-white rounded hover:bg-blue-700"
+                >
+                    Disco
+                </button>
+                <button
                     onClick={() => handleCategoryChange('Fuentes')}
-                    className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
+                    className="px-4 py-2 bg-black text-white rounded hover:bg-blue-700"
                 >
                     Fuentes
                 </button>
